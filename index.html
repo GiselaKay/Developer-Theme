@@ -23,8 +23,11 @@
 />
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,19 +42,18 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAZ0AAAAJDUwNzZmMzg0LTMwZGEtNDM2ZC05ZThlLTI3ZDBlM2M5NWE1Yg.jpg" alt="James Lee" />
             <div class="profile-content pull-left">
-                <h1 class="name">James Lee</h1>
-                <h2 class="desc">Web App Developer</h2>   
+                <h1 class="name">Gisela Kottmeier</h1>
+                <h2 class="desc">Software Engineer</h2>   
                 <ul class="social list-inline">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>                   
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/giselakottmeier" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="#"><i class="fa fa-github-alt"></i></a></li>                  
-                    <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>                 
+                                    <!--  TODO: Add AngelList-->
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
+            <button class="btn btn-cta-primary pull-right" href="https://google.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</button>              
         </div><!--//container-->
     </header><!--//header-->
     
@@ -191,13 +193,13 @@
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
+                        <p><!-- You can embed  your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. -->
                         
                         <div id="github-graph" class="github-graph">
 
                         </div><!--//github-graph-->
 
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.        
+                       <!--  <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.  -->       
                         <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->                       
                         <div id="ghfeed" class="ghfeed">
                         </div><!--//ghfeed-->
@@ -211,9 +213,11 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
+                                <center>
+                                <li> <i class="fa fa-mobile" style="font-size: 1.9em"></i><span class="sr-only">Phone Number:</span><a href="#">(415) 298-4987</a></li>
+                                <li><i class="fa fa-envelope-o" style="font-size: 1.1em"></i><span class="sr-only">Email:</span><a href="#">giselakottmeier@gmail.com</a></li>
+                                <li><i class="fa fa-map-marker" style="font-size: 1.4em"></i><span class="sr-only">Location:</span>San Francisco, US</li>
+                                </center>
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -227,45 +231,59 @@
                                 Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
                             
                             <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
                                 <div class="item">
                                     <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
+                                        <div class="level-bar-inner" data-level="98%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                                
                                 <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Expert</span></h3>
+                                    <h3 class="level-title">Node.js<span class="level-label">Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="96%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                                
                                 <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label">Pro</span></h3>
+                                    <h3 class="level-title">Angular<span class="level-label">Expert</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
+                                        <div class="level-bar-inner" data-level="56%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
+                               <div class="item">
+                                    <h3 class="level-title">React<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="76%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="56%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Swift<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="76%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
                                 
                                 <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p> 
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
-                
+<!--                 
                 <aside class="testimonials aside section">
                     <div class="section-inner">
                         <h2 class="heading">Testimonials</h2>
@@ -281,7 +299,7 @@
                             
                         </div><!--//content-->
                     </div><!--//section-inner-->
-                </aside><!--//section-->
+                </aside><!--//section--> -->
                 
                 <aside class="education aside section">
                     <div class="section-inner">
@@ -298,35 +316,16 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
                 
-                <aside class="blog aside section">
+                <!-- <aside class="blog aside section">
                     <div class="section-inner">
                         <h2 class="heading">Latest Blog Posts</h2>
                         <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
                         <div id="rss-feeds" class="content">
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
+                        </div>
+                    </div>
+                </aside>-->
                 <aside class="list music aside section">
                     <div class="section-inner">
                         <h2 class="heading">Favourite coding music</h2>
@@ -394,7 +393,8 @@
         </div><!--//container-->
     </footer><!--//footer-->
  
-    <!-- Javascript -->          
+    <!-- Javascript -->  
+
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
@@ -402,10 +402,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
     <!-- custom js -->
+
     <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
 </html> 
